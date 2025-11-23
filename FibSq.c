@@ -16,7 +16,7 @@ void ExibNumb()
     			printf("[%llu] ", Sum);
 		} else {
 			PrevSum += Sum;
-			printf("[%lld] ", PrevSum);
+			printf("[%llu] ", PrevSum);
 		}
 	}
 }
